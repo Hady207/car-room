@@ -1,0 +1,77 @@
+.about {
+  background-image: linear-gradient(45deg, rgba(black, 0.4), rgba(black, 0.5)),
+    url("../assets/images/supercars/porsche.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 65%;
+  background-position-x: 61%;
+  overflow: hidden;
+}
+
+.about__banner--1 {
+  height: 11rem;
+  width: 14rem;
+  background-color: #f17400;
+  position: absolute;
+  right: 3rem;
+  cursor: pointer;
+}
+
+.about__stripline--1 {
+  position: relative;
+  height: 4px;
+  width: 60rem;
+  background: white;
+  display: inline-block;
+  top: 71px;
+  left: -10%;
+  transform: rotate(-37deg);
+}
+
+.about__message {
+  position: relative;
+  top: 42%;
+  left: 6%;
+  color: white;
+  max-width: 34%;
+  //   background: rgba(black, 0.2);
+
+  h2 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  p {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+}
+
+.about__stripline--2 {
+  height: 4px;
+  width: 60rem;
+  background: white;
+  display: inline-block;
+  position: relative;
+  top: 74rem;
+  left: 150rem;
+  transform: rotate(-37deg);
+}
+
+.about__banner--2 {
+  height: 11rem;
+  width: 1rem;
+  background-color: #48413d;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    width: 7%;
+  }
+}

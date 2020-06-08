@@ -1,0 +1,42 @@
+.home {
+  &__header {
+    background-image: linear-gradient(45deg, rgba(black, 0.4), rgba(black, 0.5)),
+      url("../assets/images/supercars/lambo.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  &__title {
+    font-size: 5rem;
+    text-transform: capitalize;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 6%;
+    transform: translateX(-3%);
+  }
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 2rem;
+  }
+
+  &__banner {
+    height: 11rem;
+    width: 14rem;
+    background-color: #f17400;
+    position: absolute;
+    bottom: 0;
+    left: 10rem;
+  }
+}
+
+.icon__link--instgram,
+.icon__link--youtube,
+.icon__link--whatsapp {
+  fill: white;
+  height: 46px;
+  width: 33px;
+}
