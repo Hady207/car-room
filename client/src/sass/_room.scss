@@ -1,0 +1,74 @@
+.room {
+  height: 100vh;
+  background: url("https://wallpaperaccess.com/full/1155041.jpg");
+}
+
+.room__menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+  top: 10rem;
+  right: 10rem;
+
+  .car__container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom-left-radius: 38%;
+    border-top-left-radius: 38%;
+    position: relative;
+    z-index: 1;
+    &:hover .car__modal {
+      visibility: visible;
+      transform: translateX(84%);
+    }
+  }
+
+  .car__type {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .car__modal {
+    margin-left: 5px;
+    background: gray;
+    padding: 1rem;
+    position: absolute;
+
+    z-index: -1;
+    visibility: hidden;
+    transform: translateX(0%);
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.room__inputs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80%;
+  justify-content: center;
+  max-width: 12%;
+  z-index: 10000;
+
+  input[type="range"] {
+    transform: rotate(-90deg);
+    margin-left: -64px;
+  }
+}
+
+.room__msg {
+  display: flex;
+  align-items: flex-end;
+  height: 87vh;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
