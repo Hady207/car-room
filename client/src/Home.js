@@ -24,7 +24,7 @@ const Home = (props) => {
       </div>
 
       <div className="home__banner">
-        <Link to="/about">Click Me</Link>
+        {/* <Link to="/about">Click Me</Link> */}
       </div>
     </header>
   );

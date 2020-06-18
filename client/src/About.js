@@ -8,8 +8,8 @@ const About = () => {
       <div className="about__message">
         <h2>Our Mission</h2>
         <p>
-          A Relationship Between Car And A Driver Is A Sacred And We Cherish our
-          passion, That So This Site Is All About The Love of the drive
+          A Relationship Between A Car And A Driver Is Sacred And We Cherish it,
+          our passion connects us, this here is all about The Love of the drive
         </p>
       </div>
       <span className="about__stripline--2"></span>

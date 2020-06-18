@@ -15,6 +15,10 @@ const Contact = (props) => {
       email: email,
       message: message,
     });
+    setEmail("");
+    setMessage("");
+
+    alert("Thank you for sending a message, i will get back to you shortly");
   };
 
   return (

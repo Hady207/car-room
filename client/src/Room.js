@@ -45,7 +45,7 @@ const Room = () => {
       <div className="room__msg">
         <p>
           This is a demo room for a 3d model, this is just to showcase my skill
-          with working with libararies, use the mouse to interact with the car
+          with working with libraries, use the mouse to interact with the car
         </p>
       </div>
     </div>
