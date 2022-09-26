@@ -19,6 +19,6 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.16",
     "nodemailer": "^6.4.8",
-    "nodemailer-mailgun-transport": "^2.0.0"
+    "nodemailer-mailgun-transport": "^2.1.5"
   }
 }
